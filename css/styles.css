@@ -42,20 +42,71 @@ a {
   ヘッダー
   -------------------------------------------*/
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+
+.header-logo {
+  height: 24px;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.header li a:hover {
+  opacity: 0.7;
+}
+
 
 /*-------------------------------------------
   メインビジュアル
   -------------------------------------------*/
-
+.main_visual {
+  width: 100%;
+  height: 640px;
+  border-radius: 16px;
+}
 
 /*-------------------------------------------
   セクション 共通部分
   -------------------------------------------*/
+.profile {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
 
+.profile-title {
+  border-bottom: #000000 solid 5px;
+}
 
 /* -------------------------------------------
   プロフィール
   -------------------------------------------*/
+.profile-image {
+  display: flex;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+
+}
+
+.profile-info {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 40px;
+}
 
 
 /* -------------------------------------------

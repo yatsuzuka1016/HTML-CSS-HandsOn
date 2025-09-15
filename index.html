@@ -7,20 +7,49 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+ <link rel="stylesheet" href="css/styles.css"> 
+
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
-
+    <header class="header">
+      <img src="img/logo.png" alt="logo" class="header-logo" />
+      <nav>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#articles">Articles</a></li>
+        </ul>
+      </nav>
+    </header>
+    
     <main class="main-content">
       <!-- メインビジュアル -->
-
+      <img src="img/main_visual.jpg" alt="bird" class="main_visual">
       <!-- プロフィール セクション -->
+       <profile class="profile">
+        <h2 class="profile-title">profile</h2>
+        
+        
+        <div class="profile-info">
+          <img src="img/profile.png" alt="profile" class="profile-image">
+          <div class="text">
+            <h3>TARO RARETECH</h3>
+            <p>
+            出身: 東京都<br />
+            趣味: アプリ開発,散歩（公園を中心に都内を歩きまわっています）<br />
+            技術: Python,Django,JavaScript,React,AWS,GCP<br />
+            主な仕事: マネジメント,バックエンド開発<br />
+            </p>  
+          </div>
+        </div>
+       </profile>
+       
+
 
       <!-- 記事 セクション -->
-
+      
     </main>
 
     <!-- フッター -->
